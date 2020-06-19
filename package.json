@@ -1,0 +1,41 @@
+{
+  "name": "caredose-website-uk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.0.2",
+    "axios": "^0.19.0",
+    "react": "^16.13.1",
+    "react-alice-carousel": "^1.19.3",
+    "react-card-flip": "^1.0.10",
+    "react-dom": "^16.13.1",
+    "react-jss": "^8.6.1",
+    "react-player": "^2.3.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.4.1",
+    "react-simple-dropdown": "^3.2.3",
+    "react-svg": "^10.0.7"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.20.0"
+  }
+}

@@ -1,0 +1,14 @@
+/*
+@media screen and (max-width: 620px){
+.modalContainer{
+    width:95vw;
+    height:calc(0.5666* 95vw);
+}
+}
+@media screen and (min-width: 621px){
+
+.modalContainer{
+    width:calc(1.7647* 70vh);
+    height: 70vh;
+}
+} */

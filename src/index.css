@@ -1,0 +1,55 @@
+::-webkit-scrollbar{
+    width:6px;
+    height:6px;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius:10px;
+    background-color:#cccccc;
+    box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+  }
+  ::-webkit-scrollbar-track{
+    border-radius:10px;
+    background-color:white;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0);
+  }
+  main{
+    padding: 0!important;
+  }
+  hr{
+    background-color: #EC4D62!important;
+  }
+  .aquisitionCards{
+    border: 1px solid #5CC7D8;
+  }
+  .player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  }
+
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .cell {
+    flex: 0 0 32%;   /* don't grow, don't shrink, width */
+    margin-bottom: 15px;
+    /* background-color: #999; */
+  }
+  .cellIn{
+    /* height:100px; */
+    max-width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p3Click {
+    background-color: #000000;
+    opacity:0.3 !important;
+    filter:alpha(opacity=70) !important; /* For IE8 and earlier */
+    box-shadow: 0 0 0px #000000 !important;
+    z-index:0;
+  }
+  .extraLineHt{
+    line-height: 1.6;
+  }

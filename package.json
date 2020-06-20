@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "postinstall": "chmod -R +x node_modules/next/dist/bin/next-* && npm run build"
   },
   "dependencies": {
     "@material-ui/core": "^4.0.2",
     "axios": "^0.19.0",
+    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-alice-carousel": "^1.19.3",
     "react-card-flip": "^1.0.10",

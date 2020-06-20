@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "postinstall": "chmod -R +x node_modules/next/dist/bin/next-* && npm run build"
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@material-ui/core": "^4.0.2",

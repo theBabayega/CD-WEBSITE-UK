@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import injectSheet from 'react-jss';
 import styles from './SimpleModalLauncherStyle';
 import SimpleModal from './SimpleModal';
-import UploadPic from '../../asset/addPresc.png';
 
 class SimpleModalLauncher extends Component {
     constructor(props) {

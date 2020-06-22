@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import injectSheet from 'react-jss';
 import styles from './SimpleModalLauncherStyle';
 import SimpleModal from './SimpleModal';
-import VideoIcon from '../../asset/play_icon.png';
+// import VideoIcon from '../../asset/play_icon.png';
 
 class SimpleModalLauncher extends Component {
     constructor(props) {
@@ -30,7 +30,7 @@ class SimpleModalLauncher extends Component {
                     onClick={() => this.handleToggleModal()}
                 >
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <img style={{ height: '17px', marginRight: '5px' }} src={VideoIcon} />
+                        {/* <img style={{ height: '17px', marginRight: '5px' }} src={VideoIcon} /> */}
                         {buttonLabel}
                     </div>
                 </button>

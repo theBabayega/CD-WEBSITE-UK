@@ -2,7 +2,6 @@ import React from 'react';
 import axios from 'axios';
 import Input from '../input';
 import Dropdown from '../dropDown';
-import UploadPic from '../asset/addPresc.png';
 
 
 import './section.css';

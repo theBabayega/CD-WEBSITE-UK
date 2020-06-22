@@ -13,7 +13,7 @@ class ResponsivePlayer extends React.Component {
                     height='100%'
                     controls={true}
                     loop={true}
-                    // playing={true}
+                    playing={true}
                 />
             </div>
         )

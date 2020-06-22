@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Section1 from './sections/section1';
-import Section4 from './sections/section2';
-import Section5 from './sections/section4';
-import Section3 from './sections/section5';
-import Section2 from './sections/section8';
+import Section4 from './sections/section4';
+import Section5 from './sections/section5';
+import Section3 from './sections/section3';
+import Section2 from './sections/section2';
 import AU from './sections/au';
 
 

@@ -90,7 +90,7 @@ class section1 extends React.Component {
                         </div>
                         <div style={{ margin: '10px 30px', display: 'flex', flexDirection: "column", justifyContent: 'space-evenly' }}>
                             <a onClick={() => this.setBackText('p3In1', 'imgTech1')} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                <div style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech1" src={Image} alt='img' width='100%' />
+                                <div style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech1" src={ImgTechA} alt='img' width='100%' />
                                     <div className="p3In" id="p3In1" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',
@@ -106,7 +106,7 @@ class section1 extends React.Component {
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Monthly dispenser (patients) ></h4></div>
                             </a>
                             <a onClick={() => this.setBackText('p3In2', 'imgTech2')} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                <div style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech2" src={ImgTechA} alt='img' width='100%' />
+                                <div style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech2" src={Image} alt='img' width='100%' />
                                     <div className="p3In" id="p3In2" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',

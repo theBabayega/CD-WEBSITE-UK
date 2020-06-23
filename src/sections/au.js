@@ -11,6 +11,7 @@ import SS from '../asset/Sri.jpg';
 import CDCore from '../asset/cd_core.png';
 import Partner from '../asset/aggrig.png';
 import Felicitations from '../asset/Appr.png';
+import PartLogo from '../asset/au_UK_part_logo.png';
 
 
 
@@ -183,7 +184,7 @@ class section8 extends React.Component {
                         <div style={{ width: '100%', margin: 'auto' }}>
                             <div style={{ margin: ' 50px 0px', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                 {/* <ResponsivePlayer /> */}
-                                <img style={{ boxShadow: '0 -2px 5px 3px #0000000a' }} className="imgTech" id="imgTech4" src={Image} alt='img' width='80%' />
+                                <img style={{ boxShadow: '0 -2px 5px 3px #0000000a' }} className="imgTech" id="imgTech4" src={PartLogo} alt='img' width='80%' />
                             </div>
                         </div>
                         <div style={{
@@ -346,7 +347,7 @@ class section8 extends React.Component {
                         <div style={{ width: '50%', margin: 'auto' }}>
                             <div style={{ margin: ' 50px 0px', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                 {/* <ResponsivePlayer /> */}
-                                <img style={{ boxShadow: '0 -2px 5px 3px #0000000a' }} className="imgTech" id="imgTech4" src={Image} alt='img' width={this.state.imageWidth} />
+                                <img style={{ boxShadow: '0 -2px 5px 3px #0000000a' }} className="imgTech" id="imgTech4" src={PartLogo} alt='img' width={this.state.imageWidth} />
                             </div>
                         </div>
                         <div style={{

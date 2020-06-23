@@ -9,6 +9,10 @@ import { render } from 'react-dom';
 import '../index.css'
 import B1 from '../asset/b1.png';
 import B3 from '../asset/b3.png';
+import B4 from '../asset/homePageLaptop.png';
+import B5 from '../asset/home_mobile.jpg';
+
+
 class section1 extends React.Component {
     state = {
         imageHeight: 0,
@@ -122,7 +126,7 @@ class section1 extends React.Component {
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Smart attachment (patients) ></h4></div>
                             </a>
                             <a onClick={() => this.setBackText('p3In3', 'imgTech3')} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                <div style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech3" src={Image} alt='img' width='100%' />
+                                <div style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech3" src={B5} alt='img' width='100%' />
                                     <div className="p3In" id="p3In3" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',
@@ -161,7 +165,7 @@ class section1 extends React.Component {
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4>DoseDroid (for pharmacies & hospitals) ></h4></div>
                             </a>
                             <div className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                <a onClick={() => this.setBackText('p3In5', 'imgTech5')} style={{ backgroundColor: '#000', position: 'relative', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech5" src={Image} alt='img' width='100%' />
+                                <a onClick={() => this.setBackText('p3In5', 'imgTech5')} style={{ backgroundColor: '#000', position: 'relative', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech5" src={B4} alt='img' width='100%' />
                                     <div className="p3In" id="p3In5" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',
@@ -228,7 +232,7 @@ class section1 extends React.Component {
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Smart Attachment (patients) ></h4></div>
                                 </a>
                                 <a onClick={() => this.setBackText('p3In3', 'imgTech3')} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                    <div style={{ backgroundColor: '#000', position: 'relative' }} >  <img className="imgTech" id="imgTech3" src={Image} alt='img' width={this.state.imageWidth} />
+                                    <div style={{ backgroundColor: '#000', position: 'relative' }} >  <img className="imgTech" id="imgTech3" src={B5} alt='img' width={this.state.imageWidth} />
                                         <div className="p3In" id="p3In3" style={{
                                             position: "absolute", top: '50%',
                                             left: '50%',
@@ -272,7 +276,7 @@ class section1 extends React.Component {
                                     <div style={{ flexGrow: '1', textAlign: 'center', margin: '20px 0' }}><h4>DoseDroid (for pharmacies & hospitals) ></h4></div>
                                 </a>
                                 <a onClick={() => this.setBackText('p3In5', 'imgTech5')} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                    <div style={{ backgroundColor: '#000', position: 'relative' }} >  <img className="imgTech" id="imgTech5" src={Image} alt='img' width={this.state.imageWidth} />
+                                    <div style={{ backgroundColor: '#000', position: 'relative' }} >  <img className="imgTech" id="imgTech5" src={B4} alt='img' width={this.state.imageWidth} />
                                         <div className="p3In" id="p3In5" style={{
                                             position: "absolute", top: '50%',
                                             left: '50%',

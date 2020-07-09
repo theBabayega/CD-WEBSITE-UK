@@ -163,7 +163,7 @@ class section2 extends React.Component {
                                 </a>
 
                                 <a onClick={this.handleClick1} style={{ display: 'flex', minHeight: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #EC4D62", margin: '0px 0', }}>
-                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '30px', padding: '15px' }}>CAREDOSE can save upto £4,000 per patient, annually, by reducing healthcare expenditure</h4></div>
+                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '24px', padding: '15px' }}>CAREDOSE can save upto £4,000 per patient, annually, by reducing healthcare expenditure</h4></div>
 
 
                                 </a>
@@ -178,7 +178,7 @@ class section2 extends React.Component {
                                 </a>
 
                                 <a id="setHeight" onClick={this.handleClick2} style={{ display: 'flex', height: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', }}>
-                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '30px', padding: '15px' }}>CAREDOSEs automation and remote management can reduce load on human resources like pharmacists & caregivers</h4></div>
+                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '24px', padding: '15px' }}>CAREDOSEs automation and remote management can reduce load on human resources like pharmacists & caregivers</h4></div>
 
 
                                 </a>
@@ -192,7 +192,7 @@ class section2 extends React.Component {
                                 </a>
 
                                 <a onClick={this.handleClick3} style={{ display: 'flex', height: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', border: "2px solid #EC4D62", boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
-                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '30px', padding: '15px' }}>CAREDOSE syncs dispensing and refills with consumption, reducing wastage of prescription drugs</h4></div>
+                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '24px', padding: '15px' }}>CAREDOSE syncs dispensing and refills with consumption, reducing wastage of prescription drugs</h4></div>
 
 
                                 </a>
@@ -203,7 +203,7 @@ class section2 extends React.Component {
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4 style={{ fontSize: '22px', }}> Reduce cross contamination ></h4></div>
                                 </a>
                                 <a onClick={this.handleClick4} style={{ display: 'flex', height: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', }}>
-                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '30px', padding: '15px' }}>CAREDOSE enables remote management which results in reduction of exposure and contamination</h4></div>
+                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '24px', padding: '15px' }}>CAREDOSE enables remote management which results in reduction of exposure and contamination</h4></div>
                                 </a>
                             </ReactCardFlip></div>
 

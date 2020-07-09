@@ -113,7 +113,7 @@ class section1 extends React.Component {
                                         zIndex: '2',
                                         textAlign: 'center',
                                         width: '70%'
-                                    }}><h3 style={{ fontSize: '24px', color: '#ddd' }}>
+                                    }}><h3 style={{ fontSize: '20px', color: '#ddd' }}>
                                             Monthly medicines are provided to patients pre-organised & labeled by dose, in their choice of language</h3></div>
                                 </div>
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Monthly dispenser (patients) ></h4></div>
@@ -129,7 +129,7 @@ class section1 extends React.Component {
                                         zIndex: '2',
                                         textAlign: 'center',
                                         width: '70%'
-                                    }}><h3 style={{ fontSize: '24px', color: '#ddd' }}>
+                                    }}><h3 style={{ fontSize: '20px', color: '#ddd' }}>
                                             An IoT enabled attachment to the monthly dispenser that enables it to track & communicate non-adherence, to relevant stakeholders, in real time </h3></div>
                                 </div>
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Smart attachment (patients) ></h4></div>
@@ -145,7 +145,7 @@ class section1 extends React.Component {
                                         zIndex: '2',
                                         textAlign: 'center',
                                         width: '70%'
-                                    }}><h3 style={{ fontSize: '24px', color: '#ddd' }}>
+                                    }}><h3 style={{ fontSize: '20px', color: '#ddd' }}>
                                             Apps with timely reminders, actionable alerts, real time tracking & communication and electronic health records. Built to  integrate with existing platforms</h3></div>
                                 </div>
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Apps (patients & caregivers) ></h4></div>
@@ -168,7 +168,7 @@ class section1 extends React.Component {
                                         zIndex: '2',
                                         textAlign: 'center',
                                         width: '70%'
-                                    }}><h3 style={{ fontSize: '24px', color: '#ddd' }}>
+                                    }}><h3 style={{ fontSize: '20px', color: '#ddd' }}>
                                             Automated multi-dose packaging robot that packages each patient’s medicine exactly according to prescribed dosage, while maintaining traceability of each pill</h3></div>
                                 </div>
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4>DoseDroid (for pharmacies & hospitals) ></h4></div>

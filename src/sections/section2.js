@@ -137,9 +137,11 @@ class section8 extends React.Component {
                             }}>
 
                                 <h1>CAREDOSE Adherence Technologies</h1>
-                                <h3>Solving and tracking medicine non-adherence from supply chain to consumption</h3>                                <br />
-                                <h3>Creating data & analytics for healthcare systems</h3>
-                                <h3>Expanding soon to the UK. Conceptualised & tested in India</h3>
+                                <h3>Solving and tracking medicine non-adherence from supply chain to consumption</h3><br />
+                                <h3>Creating data & analytics for healthcare systems</h3><br />
+                                <h3>Expanding soon to the UK.</h3><br />
+                                <h3>Conceptualised & tested in India</h3>
+
                             </div>
                         </div>
 

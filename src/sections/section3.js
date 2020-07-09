@@ -209,7 +209,7 @@ class section1 extends React.Component {
                             </div>
                             <div style={{ margin: '30px 30px', display: 'flex', flexDirection: "row", justifyContent: 'space-evenly' }}>
                                 <a onClick={() => this.setBackText('p3In1', 'imgTech1', "setBlack1")} className='p3' style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                    <div id="setBlack1" style={{ flexGrow: '100', backgroundColor: '#fff', position: 'relative', display: 'flex' }} >  <img className="imgTech" id="imgTech1" src={ImgTechA} alt='img' width={this.state.imageWidth} />
+                                    <div id="setBlack1" style={{ backgroundColor: '#fff', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech1" style={{ alignSelf: 'auto' }} src={ImgTechA} alt='img' width={this.state.imageWidth} />
                                         <div className="p3In" id="p3In1" style={{
                                             position: "absolute", top: '50%',
                                             left: '50%',
@@ -225,7 +225,7 @@ class section1 extends React.Component {
                                     <div style={{ textAlign: 'center', flexGrow: '1', margin: '20px 0' }}><h4> Monthly Dispenser (patients) ></h4></div>
                                 </a>
                                 <a onClick={() => this.setBackText('p3In2', 'imgTech2', "setBlack2")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                    <div id="setBlack2" style={{ backgroundColor: '#fff', position: 'relative' }} >  <img className="imgTech" id="imgTech2" src={Image} alt='img' width={this.state.imageWidth} />
+                                    <div id="setBlack2" style={{ backgroundColor: '#fff', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech2" src={Image} alt='img' width={this.state.imageWidth} />
                                         <div className="p3In" id="p3In2" style={{
                                             position: "absolute", top: '50%',
                                             left: '50%',
@@ -241,7 +241,7 @@ class section1 extends React.Component {
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Smart Attachment (patients) ></h4></div>
                                 </a>
                                 <a onClick={() => this.setBackText('p3In3', 'imgTech3', "setBlack3")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                    <div id="setBlack3" style={{ backgroundColor: '#fff', position: 'relative' }} >  <img className="imgTech" id="imgTech3" src={B5} alt='img' width={this.state.imageWidth} />
+                                    <div id="setBlack3" style={{ backgroundColor: '#fff', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech3" src={B5} alt='img' width={this.state.imageWidth} />
                                         <div className="p3In" id="p3In3" style={{
                                             position: "absolute", top: '50%',
                                             left: '50%',
@@ -285,7 +285,7 @@ class section1 extends React.Component {
                                     <div style={{ flexGrow: '1', textAlign: 'center', margin: '20px 0' }}><h4>DoseDroid (for pharmacies & hospitals) ></h4></div>
                                 </a>
                                 <a onClick={() => this.setBackText('p3In5', 'imgTech5', "setBlack5")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #EC4D62", margin: '20px 0' }}>
-                                    <div id="setBlack5" style={{ backgroundColor: '#fff', position: 'relative' }} >  <img className="imgTech" id="imgTech5" src={B4} alt='img' width={this.state.imageWidth} />
+                                    <div id="setBlack5" style={{ backgroundColor: '#fff', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech5" src={B4} alt='img' width={this.state.imageWidth} />
                                         <div className="p3In" id="p3In5" style={{
                                             position: "absolute", top: '50%',
                                             left: '50%',

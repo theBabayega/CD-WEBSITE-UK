@@ -1267,6 +1267,10 @@ align-content:
     font-weight: 400!important;
     font-size: 25px!important;
   }
+  #rw-wrapperT1{
+    margin: 0 5px 0 0;
+
+  }
 }
 @media screen and (min-width:621px) {
   .sectionView{

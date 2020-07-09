@@ -103,7 +103,7 @@ class section1 extends React.Component {
                         </div>
                         <div style={{ margin: '10px 30px', display: 'flex', flexDirection: "column", justifyContent: 'space-evenly' }}>
                             <a onClick={() => this.setBackText('p3In1', 'imgTech1', "setBlackM1")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                <div id="setBlackM1" style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech1" src={ImgTechA} alt='img' width='100%' />
+                                <div id="setBlackM1" style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img style={{ alignSelf: 'auto' }} className="imgTech" id="imgTech1" src={ImgTechA} alt='img' width='100%' />
                                     <div className="p3In" id="p3In1" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',
@@ -118,8 +118,8 @@ class section1 extends React.Component {
                                 </div>
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Monthly dispenser (patients) ></h4></div>
                             </a>
-                            <a onClick={() => this.setBackText('p3In2', 'imgTech2', "setBlackM2")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px',  margin: '20px 0' }}>
-                                <div id="setBlackM2" style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech2" src={Image} alt='img' width='100%' />
+                            <a onClick={() => this.setBackText('p3In2', 'imgTech2', "setBlackM2")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
+                                <div id="setBlackM2" style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img style={{ alignSelf: 'auto' }} className="imgTech" id="imgTech2" src={Image} alt='img' width='100%' />
                                     <div className="p3In" id="p3In2" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',
@@ -134,8 +134,8 @@ class section1 extends React.Component {
                                 </div>
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Smart attachment (patients) ></h4></div>
                             </a>
-                            <a onClick={() => this.setBackText('p3In3', 'imgTech3', "setBlackM3")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px',  margin: '20px 0' }}>
-                                <div id="setBlackM3" style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech3" src={B5} alt='img' width='100%' />
+                            <a onClick={() => this.setBackText('p3In3', 'imgTech3', "setBlackM3")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
+                                <div id="setBlackM3" style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img style={{ alignSelf: 'auto' }} className="imgTech" id="imgTech3" src={B5} alt='img' width='100%' />
                                     <div className="p3In" id="p3In3" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',
@@ -158,7 +158,7 @@ class section1 extends React.Component {
                         </div>
                         <div style={{ margin: '10px 30px', display: 'flex', flexDirection: "column", justifyContent: 'space-evenly' }}>
                             <a onClick={() => this.setBackText('p3In4', 'imgTech4', "setBlackM4")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '20px 0' }}>
-                                <div id="setBlackM4" style={{ backgroundColor: '#fff', position: 'relative', position: 'relative', display: 'flex' }} >  <img className="imgTech" id="imgTech4" src={ImgTechD} alt='img' width='100%' />
+                                <div id="setBlackM4" style={{ backgroundColor: '#fff', position: 'relative', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img style={{ alignSelf: 'auto' }} className="imgTech" id="imgTech4" src={ImgTechD} alt='img' width='100%' />
                                     <div className="p3In" id="p3In4" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',
@@ -174,7 +174,7 @@ class section1 extends React.Component {
                                 <div style={{ textAlign: 'center', margin: '20px 0' }}><h4>DoseDroid (for pharmacies & hospitals) ></h4></div>
                             </a>
                             <div className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0', border: "2px solid #EC4D62", }}>
-                                <a onClick={() => this.setBackText('p3In5', 'imgTech5', "setBlackM5")} id="setBlackM5" style={{ backgroundColor: '#000', position: 'relative', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech5" src={B4} alt='img' width='100%' />
+                                <a onClick={() => this.setBackText('p3In5', 'imgTech5', "setBlackM5")} id="setBlackM5" style={{ backgroundColor: '#000', position: 'relative', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img style={{ alignSelf: 'auto' }} className="imgTech" id="imgTech5" src={B4} alt='img' width='100%' />
                                     <div className="p3In" id="p3In5" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',
@@ -240,7 +240,7 @@ class section1 extends React.Component {
                                     </div>
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Smart Attachment (patients) ></h4></div>
                                 </a>
-                                <a onClick={() => this.setBackText('p3In3', 'imgTech3', "setBlack3")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px',  margin: '20px 0' }}>
+                                <a onClick={() => this.setBackText('p3In3', 'imgTech3', "setBlack3")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
                                     <div id="setBlack3" style={{ backgroundColor: '#fff', position: 'relative' }} >  <img className="imgTech" id="imgTech3" src={B5} alt='img' width={this.state.imageWidth} />
                                         <div className="p3In" id="p3In3" style={{
                                             position: "absolute", top: '50%',

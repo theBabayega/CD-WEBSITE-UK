@@ -1263,6 +1263,10 @@ align-content:
     background-size: cover;
     background-position: center;
   }
+  #headingTemp1{
+    font-weight: 400!important;
+    font-size: 25px!important;
+  }
 }
 @media screen and (min-width:621px) {
   .sectionView{
@@ -1270,7 +1274,9 @@ align-content:
     background-size: cover;
     background-position: center;
   }
+
 }
+
 #selectTag{
   -webkit-appearance: none;
 }

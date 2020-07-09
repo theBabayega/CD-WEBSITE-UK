@@ -111,16 +111,16 @@ class section8 extends React.Component {
 
 
                     </div>
-                    <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '-10vh', left: '20vw', zIndex: '100' }} width='60' src={B1} />
-                    </span>
+                    {/* <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '-10vh', left: '20vw', zIndex: '1' }} width='60' src={B1} />
+                    </span> */}
 
                     <hr />
 
                 </div>
                 :
                 <div id="testimonialTop" style={{ width: '100%' }}>
-                    <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '10vh', left: '60vw', zIndex: '100' }} width='60' src={B3} />
-                    </span>
+                    {/* <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '10vh', left: '60vw', zIndex: '1' }} width='60' src={B3} />
+                    </span> */}
                     <div id="mobChange" style={{ display: 'flex', flexDirection: "row" }}>
                         <div style={{ width: '50vw', margin: 'auto' }}>
                             <div style={{ margin: ' 50px 10px' }}>
@@ -145,8 +145,8 @@ class section8 extends React.Component {
 
 
                     </div>
-                    <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '0vh', left: '20vw', zIndex: '100' }} width='60' src={B1} />
-                    </span>
+                    {/* <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '0vh', left: '20vw', zIndex: '1' }} width='60' src={B1} />
+                    </span> */}
 
 
                 </div>

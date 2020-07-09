@@ -258,7 +258,7 @@ class section1 extends React.Component {
                                 </a>
                             </div>
                         </div>
-                        <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '0vh', left: '20vw', zIndex: '100' }} width='60' src={B3} />
+                        <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '0vh', left: '20vw', zIndex: '1' }} width='60' src={B3} />
                         </span>
 
                         <div style={{ margin: '30px 30px', display: 'flex', flexDirection: "column" }}>

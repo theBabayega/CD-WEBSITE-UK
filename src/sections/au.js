@@ -88,7 +88,7 @@ class section8 extends React.Component {
 
                                 <h1>Established in 2016</h1>
                                 <h3>CAREDOSE was established in 2016 with an aim to solve the silent epidemic of medicine non-adherence. We quickly realised that this problem impacts not just patients but each and every entity in the healthcare spectrum.<br /> Keeping this in mind we conceptualised a comprehensive technology ecosystem that would solve and track medicine non-adherence from supply chain to consumption.<br /> This solution, which is now complete, is a combination of robotics, IoT, AI, hardware & software and is just the starting point of our technology & innovation rollout</h3>                                <br />
-                                <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '10vh', left: '10vw', zIndex: '100' }} width='60' src={B3} />
+                                <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '10vh', left: '10vw', zIndex: '1' }} width='60' src={B3} />
                                 </span>
                             </div>
                         </div>
@@ -248,11 +248,11 @@ class section8 extends React.Component {
                                 padding: '0 55px',
                                 textAlign: 'center'
                             }}>
-                                <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '-10vh', left: '0vw', zIndex: '100' }} width='60' src={B1} />
+                                <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '-10vh', left: '0vw', zIndex: '1' }} width='60' src={B1} />
                                 </span>
                                 <h1>Established in 2016</h1>
                                 <h3>CAREDOSE was established in 2016 with an aim to solve the silent epidemic of medicine non-adherence. We quickly realised that this problem impacts not just patients but each and every entity in the healthcare spectrum.<br /> Keeping this in mind we conceptualised a comprehensive technology ecosystem that would solve and track medicine non-adherence from supply chain to consumption.<br /> This solution, which is now complete, is a combination of robotics, IoT, AI, hardware & software and is just the starting point of our technology & innovation rollout</h3>                                <br />
-                                <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '10vh', left: '10vw', zIndex: '100' }} width='60' src={B3} />
+                                <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '10vh', left: '10vw', zIndex: '1' }} width='60' src={B3} />
                                 </span>
                             </div>
                         </div>

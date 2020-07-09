@@ -172,7 +172,7 @@ class section1 extends React.Component {
                     <div className="Sec1TopLeft">
                         <div className="rw-wrapper" style={{ zIndex: '2', textAlign: 'center', maxHeight: '190px' }}>
                             <h2 className="rw-sentence">
-                                <span style={{ fontFamily: "'Lato', sans-serif", color: '#000', fontWeight: '600' }}>Adherence Technologies for Payer Led Healthcare Systems
+                                <span id="headingTemp1" style={{ fontFamily: "'Lato', sans-serif", color: '#000', fontWeight: '600' }}>Adherence Technologies for Payer Led Healthcare Systems
                                 {/* <br /> for */}
                                 </span>
                                 {/*<div className="rw-words rw-words-1">

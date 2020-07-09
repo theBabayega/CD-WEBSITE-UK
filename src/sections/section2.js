@@ -3,7 +3,6 @@ import ResponsivePlayer from '../video';
 import '../index.css';
 // import 'section3.css';
 import ReactSVG from 'react-svg';
-import Testimonial4 from '../asset/abhayJ.jpeg';
 
 import TopQ from '../asset/1-1.svg';
 import BotQ from '../asset/1-2.svg';

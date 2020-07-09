@@ -2,7 +2,6 @@
 import './section.css';
 import React from 'react';
 import DispenserSq from '../asset/dispenser.png';
-import Image from '../asset/abhayJ.jpeg';
 import ReactCardFlip from 'react-card-flip';
 import ReactDOM from 'react-dom';
 import Icon1 from '../asset/icon1.png';

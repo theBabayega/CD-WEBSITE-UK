@@ -50,7 +50,7 @@ class Footer extends React.Component {
                             textAlign: 'center', width: `${this.state.widthH}`, display: 'flex', justifyContent: 'center', marginBottom: `${this.state.marBottom}`,
                             alignItems: 'center'
                         }}>
-                            <h1 style={{ fontSize: `${this.state.fontSize}`, padding: '30px 0', color: '#fff' }}>Contact us</h1>
+                            <h1 style={{ fontSize: `${this.state.fontSize}`, padding: '30px 0 0 0', color: '#fff' }}>Contact us</h1>
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', width: `${this.state.widthB}`, padding: '0 2% 0 10%' }}>
                             <a target="_blank" href="mailto:gauri@caredose.com"><h2 style={{ padding: '20px 20px 10px 0', color: '#fff', fontSize: '20px' }}>Email:&nbsp;<span style={{ color: '#337ab7', fontSize: '18px' }}> gauri@caredose.com</span> </h2></a>

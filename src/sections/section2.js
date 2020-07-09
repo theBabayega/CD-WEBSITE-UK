@@ -97,7 +97,9 @@ class section8 extends React.Component {
                                 <br />
                                 <h3 style={{ fontSize: '26px', }}>Creating data & analytics for healthcare systems</h3>
                                 <br />
-                                <h3 style={{ fontSize: '26px', }}>Expanding soon to the UK. Conceptualised & tested in India</h3>
+                                <h3 style={{ fontSize: '26px', }}>Expanding soon to the UK.</h3>
+                                <br />
+                                <h3 style={{ fontSize: '26px', }}>Conceptualised & tested in India</h3>
                                 <br />
 
 

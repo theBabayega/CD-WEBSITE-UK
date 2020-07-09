@@ -103,7 +103,7 @@ class section1 extends React.Component {
                         </div>
                         <div style={{ margin: '10px 30px', display: 'flex', flexDirection: "column", justifyContent: 'space-evenly' }}>
                             <a onClick={() => this.setBackText('p3In1', 'imgTech1', "setBlackM1")} className='p3' style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '20px 0' }}>
-                                <div id="setBlackM1" style={{ backgroundColor: '#000', position: 'relative', display: 'flex', }} >  <img className="imgTech" id="imgTech1" src={ImgTechA} alt='img' width='100%' />
+                                <div id="setBlackM1" style={{ backgroundColor: '#000', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >  <img className="imgTech" id="imgTech1" src={ImgTechA} alt='img' width='100%' />
                                     <div className="p3In" id="p3In1" style={{
                                         position: "absolute", top: '50%',
                                         left: '50%',

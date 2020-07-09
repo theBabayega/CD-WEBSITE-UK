@@ -162,7 +162,7 @@ class menu extends React.Component {
                             }}
                         />
                     </a>
-                    <div id="logoContainer" style={{ display: 'flex', flexDirection: 'row' }}>
+                    <a href="https://cd-website-uk.vercel.app" ><div id="logoContainer" style={{ display: 'flex', flexDirection: 'row' }}>
                         <img src={Logo} alt="logo" style={{ height: '40px', margin: 'auto 10px auto auto' }} />
                         <h3 style={{
                             fontFamily: 'BaskervilleLOGO', fontWeight: '100', display: 'flex', alignItems: 'center',
@@ -170,6 +170,7 @@ class menu extends React.Component {
                         >CARE<span style={{ fontFamily: 'Baskerville_Italic' }}>DOSE</span>
                         </h3>
                     </div>
+                    </a>
 
                     <div
                         style={{

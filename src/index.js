@@ -7,6 +7,7 @@ import Section5 from './sections/section5';
 import Section3 from './sections/section3';
 import Section2 from './sections/section2';
 import AU from './sections/au';
+import Footer from "./sections/footer";
 
 
 import Menu from './sections/menu';
@@ -21,6 +22,7 @@ const AppWebsite = () => (
         <Section4 />
         {/* <DoseDroid /> */}
         <Section5 />
+        <Footer />
         {/* <CU /> */}
     </div>
 );

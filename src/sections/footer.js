@@ -29,7 +29,7 @@ class Footer extends React.Component {
                 widthH: '100%',
                 widthB: '80%',
                 direction: 'column',
-                marBottom: '20px',
+                marBottom: '0',
             });
         } else {
             this.setState({

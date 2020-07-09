@@ -1259,14 +1259,14 @@ align-content:
   }
   .Sec1TopLeft{
   height: calc( 93vh - 50px );
-  background: #ECF5FE url(/static/media/banner.3e276278.png) no-repeat;
+  background: #ECF5FE url(../asset/banner@3x1test2.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 @media screen and (min-width:621px) {
   .sectionView{
-    background: #ECF5FE url(../asset/banner.png) no-repeat;
+    background: #ECF5FE url(../asset/banner@3x1.png) no-repeat;
     background-size: cover;
     background-position: center;
   }

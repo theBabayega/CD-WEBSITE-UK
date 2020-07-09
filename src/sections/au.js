@@ -1,6 +1,6 @@
 import React from 'react';
 // import ResponsivePlayer from '../video';
-import Image from '../asset/abhayJ.jpeg';
+import Image from '../asset/CD_TEAM.jpeg';
 import Menu from '../sections/menu';
 import B1 from '../asset/b1.png';
 import B3 from '../asset/b3.png';
@@ -11,7 +11,7 @@ import SS from '../asset/Sri.jpg';
 import CDCore from '../asset/cd_core.png';
 import Partner from '../asset/aggrig.png';
 import Felicitations from '../asset/Appr.png';
-import PartLogo from '../asset/au_UK_part_logo.png';
+import PartLogo from '../asset/newNHSPartLogo.jpg';
 
 
 
@@ -87,7 +87,7 @@ class section8 extends React.Component {
                             }}>
 
                                 <h1>Established in 2016</h1>
-                                <h3>CAREDOSE was established in 2016 with an aim to solve the silent epidemic of medicine non-adherence. We quickly realised that this problem impacts not just patients but each and every entity in the healthcare spectrum. Keeping this in mind we conceptualised a comprehensive technology ecosystem that would solve and track medicine non-adherence from supply chain to consumption. This solution, which is now complete, is a combination of robotics, IoT, AI, hardware & software and is just the starting point of our technology & innovation rollout</h3>                                <br />
+                                <h3>CAREDOSE was established in 2016 with an aim to solve the silent epidemic of medicine non-adherence. We quickly realised that this problem impacts not just patients but each and every entity in the healthcare spectrum.<br /> Keeping this in mind we conceptualised a comprehensive technology ecosystem that would solve and track medicine non-adherence from supply chain to consumption.<br /> This solution, which is now complete, is a combination of robotics, IoT, AI, hardware & software and is just the starting point of our technology & innovation rollout</h3>                                <br />
                                 <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '10vh', left: '10vw', zIndex: '100' }} width='60' src={B3} />
                                 </span>
                             </div>
@@ -107,7 +107,7 @@ class section8 extends React.Component {
                                 textAlign: 'center'
                             }}>
                                 <h1>Built for the World with a focus on payer led systems</h1>
-                                <h3>The CAREDOSE technology ecosystem was conceptualised keeping a global footprint in mind. All systems have been developed in accordance with global standards including all software & data systems, which are HIPAA compliant. Additionally, the solution is completely modular allowing for easy customization and integration with existing systems. Our aim was to build an ideal solution for payer led systems i.e. economies where healthcare is managed by public health systems or those with a high penetration of health insurance</h3>                                <br />
+                                <h3>The CAREDOSE technology ecosystem was conceptualised keeping a global footprint in mind. All systems have been developed in accordance with global standards including all software & data systems, which are HIPAA compliant.<br /> Additionally, the solution is completely modular allowing for easy customization and integration with existing systems.<br /> Our aim was to build an ideal solution for payer led systems i.e. economies where healthcare is managed by public health systems or those with a high penetration of health insurance</h3>                                <br />
 
                             </div>
                         </div>
@@ -251,7 +251,7 @@ class section8 extends React.Component {
                                 <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '-10vh', left: '0vw', zIndex: '100' }} width='60' src={B1} />
                                 </span>
                                 <h1>Established in 2016</h1>
-                                <h3>CAREDOSE was established in 2016 with an aim to solve the silent epidemic of medicine non-adherence. We quickly realised that this problem impacts not just patients but each and every entity in the healthcare spectrum. Keeping this in mind we conceptualised a comprehensive technology ecosystem that would solve and track medicine non-adherence from supply chain to consumption. This solution, which is now complete, is a combination of robotics, IoT, AI, hardware & software and is just the starting point of our technology & innovation rollout</h3>                                <br />
+                                <h3>CAREDOSE was established in 2016 with an aim to solve the silent epidemic of medicine non-adherence. We quickly realised that this problem impacts not just patients but each and every entity in the healthcare spectrum.<br /> Keeping this in mind we conceptualised a comprehensive technology ecosystem that would solve and track medicine non-adherence from supply chain to consumption.<br /> This solution, which is now complete, is a combination of robotics, IoT, AI, hardware & software and is just the starting point of our technology & innovation rollout</h3>                                <br />
                                 <span style={{ position: 'relative' }}><img style={{ position: 'absolute', top: '10vh', left: '10vw', zIndex: '100' }} width='60' src={B3} />
                                 </span>
                             </div>
@@ -271,7 +271,7 @@ class section8 extends React.Component {
                                 textAlign: 'center'
                             }}>
                                 <h1>Built for the World with a focus on payer led systems</h1>
-                                <h3>The CAREDOSE technology ecosystem was conceptualised keeping a global footprint in mind. All systems have been developed in accordance with global standards including all software & data systems, which are HIPAA compliant. Additionally, the solution is completely modular allowing for easy customization and integration with existing systems. Our aim was to build an ideal solution for payer led systems i.e. economies where healthcare is managed by public health systems or those with a high penetration of health insurance</h3>                                <br />
+                                <h3>The CAREDOSE technology ecosystem was conceptualised keeping a global footprint in mind. All systems have been developed in accordance with global standards including all software & data systems, which are HIPAA compliant.<br /> Additionally, the solution is completely modular allowing for easy customization and integration with existing systems.<br /> Our aim was to build an ideal solution for payer led systems i.e. economies where healthcare is managed by public health systems or those with a high penetration of health insurance</h3>                                <br />
 
                             </div>
                         </div>

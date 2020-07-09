@@ -44,13 +44,13 @@ class section2 extends React.Component {
     calculateImageRes() {
         var h = window.innerHeight;
         var w = window.innerWidth;
-        var temp = ((w - 100) / 4) - 80;
+        var temp = ((w - 100) / 4) - 180;
 
         if (window.innerWidth < 691) {
             console.log(window.innerWidth);
             w = this.state.width
             this.setState({
-                imageWidth: window.innerWidth * 0.9 - 60,
+                imageWidth: window.innerWidth * 0.7 - 60,
             })
         } else {
             this.setState({
@@ -156,14 +156,14 @@ class section2 extends React.Component {
 
 
                             <div style={{ margin: '10px 0', padding: '20px' }}><ReactCardFlip flipSpeedBackToFront={0.3} flipSpeedFrontToBack={0.3} isFlipped={this.state.isFlipped1} flipDirection="horizontal">
-                                <a ref={this.findHeight} onClick={this.handleClick1} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <a ref={this.findHeight} onClick={this.handleClick1} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #EC4D62", margin: '0px 0', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     <img ref={this.myDiv} src={Icon1} alt='img' width='100%' />
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4 style={{ fontSize: '22px', }}> Improve health economics ></h4></div>
 
 
                                 </a>
 
-                                <a onClick={this.handleClick1} style={{ display: 'flex', minHeight: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
+                                <a onClick={this.handleClick1} style={{ display: 'flex', minHeight: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #EC4D62", margin: '0px 0', }}>
                                     <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '30px', padding: '15px' }}>CAREDOSE can save upto £4,000 per patient, annually, by reducing healthcare expenditure</h4></div>
 
 
@@ -171,39 +171,39 @@ class section2 extends React.Component {
                             </ReactCardFlip></div>
 
                             <div style={{ margin: '10px 0', padding: '20px' }}><ReactCardFlip flipSpeedBackToFront={0.3} flipSpeedFrontToBack={0.3} isFlipped={this.state.isFlipped2} flipDirection="horizontal">
-                                <a onClick={this.handleClick2} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <a onClick={this.handleClick2} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     <img src={Icon2} alt='img' width='100%' />
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4 style={{ fontSize: '22px', }}> Optimise resource allocation ></h4></div>
 
 
                                 </a>
 
-                                <a id="setHeight" onClick={this.handleClick2} style={{ display: 'flex', height: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
+                                <a id="setHeight" onClick={this.handleClick2} style={{ display: 'flex', height: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', }}>
                                     <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '30px', padding: '15px' }}>CAREDOSEs automation and remote management can reduce load on human resources like pharmacists & caregivers</h4></div>
 
 
                                 </a>
                             </ReactCardFlip></div>
                             <div style={{ margin: '10px 0', padding: '20px' }}><ReactCardFlip flipSpeedBackToFront={0.3} flipSpeedFrontToBack={0.3} isFlipped={this.state.isFlipped3} flipDirection="horizontal">
-                                <a onClick={this.handleClick3} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <a onClick={this.handleClick3} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', border: "2px solid #EC4D62", position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     <img src={Icon3} alt='img' width='100%' />
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4 style={{ fontSize: '22px', }}> Reduce pharmaceutical wastage ></h4></div>
 
 
                                 </a>
 
-                                <a onClick={this.handleClick3} style={{ display: 'flex', height: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
+                                <a onClick={this.handleClick3} style={{ display: 'flex', height: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', border: "2px solid #EC4D62", boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
                                     <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '30px', padding: '15px' }}>CAREDOSE syncs dispensing and refills with consumption, reducing wastage of prescription drugs</h4></div>
 
 
                                 </a>
                             </ReactCardFlip></div>
                             <div style={{ margin: '10px 0', padding: '20px' }}><ReactCardFlip flipSpeedBackToFront={0.3} flipSpeedFrontToBack={0.3} isFlipped={this.state.isFlipped4} flipDirection="horizontal">
-                                <a onClick={this.handleClick4} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <a onClick={this.handleClick4} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     <img src={Icon4} alt='img' width='100%' />
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4 style={{ fontSize: '22px', }}> Reduce cross contamination ></h4></div>
                                 </a>
-                                <a onClick={this.handleClick4} style={{ display: 'flex', height: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
+                                <a onClick={this.handleClick4} style={{ display: 'flex', height: `${this.state.height}px`, justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', }}>
                                     <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 10px', width: `${this.state.imageWidth}px` }}><h4 style={{ fontSize: '30px', padding: '15px' }}>CAREDOSE enables remote management which results in reduction of exposure and contamination</h4></div>
                                 </a>
                             </ReactCardFlip></div>
@@ -223,58 +223,58 @@ class section2 extends React.Component {
 
 
                             <ReactCardFlip flipSpeedBackToFront={0.3} flipSpeedFrontToBack={0.3} isFlipped={this.state.isFlipped1} flipDirection="horizontal">
-                                <a onClick={this.handleClick1} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', padding: '20px' }}>
-                                    <img src={Icon1} alt='img' width={this.state.imageWidth} />
+                                <a onClick={this.handleClick1} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #EC4D62", margin: '0px 0', padding: '20px' }}>
+                                    <div style={{ padding: '10px 50px' }}> <img src={Icon1} alt='img' width={this.state.imageWidth} /></div>
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Improve health economics ></h4></div>
 
 
                                 </a>
 
-                                <a onClick={this.handleClick1} style={{ display: 'flex', height: '100%', justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
-                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px ', width: `${this.state.imageWidth}px` }}><h3>CAREDOSE can save upto £4,000 per patient, annually, by reducing healthcare expenditure</h3></div>
+                                <a onClick={this.handleClick1} style={{ display: 'flex', height: '100%', justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #EC4D62", margin: '0px 0', }}>
+                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px ', width: `${this.state.imageWidth + 100}px` }}><h3>CAREDOSE can save upto £4,000 per patient, annually, by reducing healthcare expenditure</h3></div>
 
 
                                 </a>
                             </ReactCardFlip>
 
                             <ReactCardFlip flipSpeedBackToFront={0.3} flipSpeedFrontToBack={0.3} isFlipped={this.state.isFlipped2} flipDirection="horizontal">
-                                <a onClick={this.handleClick2} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', padding: '20px' }}>
-                                    <img src={Icon2} alt='img' width={this.state.imageWidth} />
+                                <a onClick={this.handleClick2} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', padding: '20px' }}>
+                                    <div style={{ padding: '10px 50px' }}><img src={Icon2} alt='img' width={this.state.imageWidth} /></div>
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Optimise resource allocation ></h4></div>
 
 
                                 </a>
 
-                                <a onClick={this.handleClick2} style={{ display: 'flex', height: '100%', justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
-                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px ', width: `${this.state.imageWidth }px` }}><h3>CAREDOSEs automation and remote management can reduce load on human resources like pharmacists & caregivers</h3></div>
+                                <a onClick={this.handleClick2} style={{ display: 'flex', height: '100%', justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', }}>
+                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px ', width: `${this.state.imageWidth + 100}px` }}><h3>CAREDOSEs automation and remote management can reduce load on human resources like pharmacists & caregivers</h3></div>
 
 
                                 </a>
                             </ReactCardFlip>
                             <ReactCardFlip flipSpeedBackToFront={0.3} flipSpeedFrontToBack={0.3} isFlipped={this.state.isFlipped3} flipDirection="horizontal">
-                                <a onClick={this.handleClick3} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', padding: '20px' }}>
-                                    <img src={Icon3} alt='img' width={this.state.imageWidth} />
+                                <a onClick={this.handleClick3} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #EC4D62", margin: '0px 0', padding: '20px' }}>
+                                    <div style={{ padding: '10px 50px' }}><img src={Icon3} alt='img' width={this.state.imageWidth} /></div>
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Reduce pharmaceutical wastage ></h4></div>
 
 
                                 </a>
 
-                                <a onClick={this.handleClick3} style={{ display: 'flex', height: '100%', justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
-                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px ', width: `${this.state.imageWidth }px` }}><h3>CAREDOSE syncs dispensing and refills with consumption, reducing wastage of prescription drugs</h3></div>
+                                <a onClick={this.handleClick3} style={{ display: 'flex', height: '100%', justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #EC4D62", margin: '0px 0', }}>
+                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px ', width: `${this.state.imageWidth + 100}px` }}><h3>CAREDOSE syncs dispensing and refills with consumption, reducing wastage of prescription drugs</h3></div>
 
 
                                 </a>
                             </ReactCardFlip>
                             <ReactCardFlip flipSpeedBackToFront={0.3} flipSpeedFrontToBack={0.3} isFlipped={this.state.isFlipped4} flipDirection="horizontal">
-                                <a onClick={this.handleClick4} style={{ display: 'flex', flexDirection: 'column', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', padding: '20px' }}>
-                                    <img src={Icon4} alt='img' width={this.state.imageWidth} />
+                                <a onClick={this.handleClick4} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', padding: '20px' }}>
+                                    <div style={{ padding: '10px 50px' }}><img src={Icon4} alt='img' width={this.state.imageWidth} /></div>
                                     <div style={{ textAlign: 'center', margin: '20px 0' }}><h4> Reduce cross contamination ></h4></div>
 
 
                                 </a>
 
-                                <a onClick={this.handleClick4} style={{ display: 'flex', height: '100%', justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', margin: '0px 0', }}>
-                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px ', width: `${this.state.imageWidth }px` }}><h3>CAREDOSE enables remote management which results in reduction of exposure and contamination</h3></div>
+                                <a onClick={this.handleClick4} style={{ display: 'flex', height: '100%', justifyContent: 'center', alignContent: 'center', boxShadow: '#00000047 0px 3px 4px 3px', border: "2px solid #5CC7D8", margin: '0px 0', }}>
+                                    <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px ', width: `${this.state.imageWidth + 100}px` }}><h3>CAREDOSE enables remote management which results in reduction of exposure and contamination</h3></div>
 
 
                                 </a>

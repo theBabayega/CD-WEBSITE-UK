@@ -61,10 +61,10 @@ class menu extends React.Component {
                             s.selectedIndex = i;
                             h.innerHTML = this.innerHTML;
                             if (h.innerHTML == "Our Story") {
-                                window.location = "https://cd-website-uk.vercel.app/about";
+                                window.location = "https://caredose.co.uk/about";
 
                             } else {
-                                window.location = "https://cd-website-uk.vercel.app/about#team";
+                                window.location = "https://caredose.co.uk/about#team";
 
                             }
                             // y = this.parentNode.getElementsByClassName("same-as-selected");
@@ -162,7 +162,7 @@ class menu extends React.Component {
                             }}
                         />
                     </a>
-                    <a href="https://cd-website-uk.vercel.app" ><div id="logoContainer" style={{ display: 'flex', flexDirection: 'row' }}>
+                    <a href="https://caredose.co.uk" ><div id="logoContainer" style={{ display: 'flex', flexDirection: 'row' }}>
                         <img src={Logo} alt="logo" style={{ height: '40px', margin: 'auto 10px auto auto' }} />
                         <h3 style={{
                             fontFamily: 'BaskervilleLOGO', fontWeight: '100', display: 'flex', alignItems: 'center',
@@ -180,8 +180,8 @@ class menu extends React.Component {
                         <div
                             className="navbar"
                         >
-                            <a style={{ fontFamily: "'Lato', sans-serif" }} href="https://cd-website-uk.vercel.app#homeStart">Home</a>
-                            <a style={{ fontFamily: "'Lato', sans-serif" }} href="https://cd-website-uk.vercel.app#technology">Technologies</a>
+                            <a style={{ fontFamily: "'Lato', sans-serif" }} href="https://caredose.co.uk#homeStart">Home</a>
+                            <a style={{ fontFamily: "'Lato', sans-serif" }} href="https://caredose.co.uk#technology">Technologies</a>
                             {/* <select name="cars" id="cars" style={{
                                 border: 'none',
                                 backgroundColor: '#00000000',
@@ -203,8 +203,8 @@ class menu extends React.Component {
                                     <option value="1">Team</option>
                                 </select>
                             </a>
-                            <a style={{ fontFamily: "'Lato', sans-serif" }} href="https://cd-website-uk.vercel.app#news">News</a>
-                            <a style={{ fontFamily: "'Lato', sans-serif" }} href="https://cd-website-uk.vercel.app#cu">Contact Us</a>
+                            <a style={{ fontFamily: "'Lato', sans-serif" }} href="https://caredose.co.uk#news">News</a>
+                            <a style={{ fontFamily: "'Lato', sans-serif" }} href="https://caredose.co.uk#cu">Contact Us</a>
                         </div>
                     </div>
                 </div>
